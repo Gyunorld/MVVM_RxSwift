@@ -8,3 +8,12 @@ RxSwift,Alamofire,SnapKit,Kingfisher와 같은 다양한 라이브러리를 활�
 - 프로젝트 생성
 - Entity 구현
 - UseCase 구현
+
+### 25년 01월 15일
+- **DataLayer구현**
+  - 라이브러리 설치 (Cocoapod)
+  - Base Network 구현
+  - 네트워크 에러 처리
+  - User 네트워크 구현
+  - CoreData 구현
+  - Repository 구현
