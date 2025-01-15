@@ -43,6 +43,7 @@ public struct UserListUsecase: UserListUsecaseProtocol {
     }
     
     public func checkFavoriteState(fetchUsers: [UserListItem], favoriteUsers: [UserListItem]) -> [(user: UserListItem, isFavorite: Bool)] {
+        // Set 사용시 성능향상
         let favoriteSet = Set(favoriteUsers)
         return fetchUsers.map { user in
             if favoriteSet.contains(user) {
