@@ -17,3 +17,7 @@ RxSwift,Alamofire,SnapKit,Kingfisher와 같은 다양한 라이브러리를 활�
   - User 네트워크 구현
   - CoreData 구현
   - Repository 구현
+
+- **UseCase 추가 구현**
+  - User검색 로직 구현
+  - 테스트 코드 작성 및 실행 
