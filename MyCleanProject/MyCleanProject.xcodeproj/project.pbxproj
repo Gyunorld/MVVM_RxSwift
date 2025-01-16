@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -89,6 +89,10 @@
 		F8FD4FAB2C78CBAE00147C4F /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F26A268E2D38DF51000FC417 /* Presentation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Presentation; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		BFB909042C28376C00F6A530 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -158,6 +162,7 @@
 				BFB9090A2C28376C00F6A530 /* AppDelegate.swift */,
 				BFB9090C2C28376C00F6A530 /* SceneDelegate.swift */,
 				BFB9090E2C28376C00F6A530 /* ViewController.swift */,
+				F26A268E2D38DF51000FC417 /* Presentation */,
 				F8FD4FA32C78BEB000147C4F /* Data */,
 				F827E55A2C74AA6500C5B320 /* Domain */,
 				BFB909102C28376C00F6A530 /* Main.storyboard */,
@@ -294,6 +299,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F26A268E2D38DF51000FC417 /* Presentation */,
 			);
 			name = MyCleanProject;
 			productName = MyCleanProject;
