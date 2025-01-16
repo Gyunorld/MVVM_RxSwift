@@ -21,3 +21,11 @@ RxSwift,Alamofire,SnapKit,Kingfisher와 같은 다양한 라이브러리를 활�
 - **UseCase 추가 구현**
   - User검색 로직 구현
   - 테스트 코드 작성 및 실행 
+
+### 25년 01월 16이
+- **ViewModel구현**
+  - Input, Output 패턴 사용
+  - ViewModel 설계
+  - 유저조회
+  - 즐겨찾기
+  - 뷰 데이터
