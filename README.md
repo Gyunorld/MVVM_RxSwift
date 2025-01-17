@@ -22,10 +22,20 @@ RxSwift,Alamofire,SnapKit,Kingfisher와 같은 다양한 라이브러리를 활�
   - User검색 로직 구현
   - 테스트 코드 작성 및 실행 
 
-### 25년 01월 16이
+### 25년 01월 16일
 - **ViewModel구현**
   - Input, Output 패턴 사용
   - ViewModel 설계
   - 유저조회
   - 즐겨찾기
   - 뷰 데이터
+
+### 25년 01월 17일
+- **ViewController구현**
+  - UIViewController 코드 베이스로 구현
+  - TextFiled,TabButton UI 구현
+  - ViewControllerdhk ViewModel이벤트 바인딩
+  - List Cell 구현
+  - Cell과 ViewController 이벤트 바인딩
+  - Cell 동적으로 구현
+  - 페이지네이션 구현
