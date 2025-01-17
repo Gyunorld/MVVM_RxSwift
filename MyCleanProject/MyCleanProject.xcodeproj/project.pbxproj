@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8F8450C993600509E0D02D4 /* Pods_MyCleanProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFBD2BF6F794D7AD7F4DF71 /* Pods_MyCleanProject.framework */; };
+		B8F8450C993600509E0D02D4 /* Pods_MyCleanProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFBD2BF6F794D7AD7F4DF71 /* Pods_MyCleanProject.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BFB9090B2C28376C00F6A530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9090A2C28376C00F6A530 /* AppDelegate.swift */; };
 		BFB9090D2C28376C00F6A530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9090C2C28376C00F6A530 /* SceneDelegate.swift */; };
-		BFB9090F2C28376C00F6A530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9090E2C28376C00F6A530 /* ViewController.swift */; };
-		BFB909122C28376C00F6A530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB909102C28376C00F6A530 /* Main.storyboard */; };
 		BFB909152C28376C00F6A530 /* MyCleanProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFB909132C28376C00F6A530 /* MyCleanProject.xcdatamodeld */; };
 		BFB909172C28376E00F6A530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB909162C28376E00F6A530 /* Assets.xcassets */; };
-		BFB9091A2C28376E00F6A530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB909182C28376E00F6A530 /* LaunchScreen.storyboard */; };
 		BFB909252C28376E00F6A530 /* MyCleanProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB909242C28376E00F6A530 /* MyCleanProjectTests.swift */; };
 		BFB9092F2C28376E00F6A530 /* MyCleanProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9092E2C28376E00F6A530 /* MyCleanProjectUITests.swift */; };
 		BFB909312C28376E00F6A530 /* MyCleanProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB909302C28376E00F6A530 /* MyCleanProjectUITestsLaunchTests.swift */; };
 		F05757AA6960BDEE277CF74C /* Pods_MyCleanProject_MyCleanProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAEDE7F611D1BFA0D6D012C /* Pods_MyCleanProject_MyCleanProjectUITests.framework */; };
+		F230755F2D3A3C7200CE2144 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F230755E2D3A3C7200CE2144 /* Alamofire.framework */; };
+		F23075612D3A3C7E00CE2144 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23075602D3A3C7E00CE2144 /* Kingfisher.framework */; };
+		F23075632D3A3C7E00CE2144 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23075622D3A3C7E00CE2144 /* RxCocoa.framework */; };
+		F23075652D3A3C7E00CE2144 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23075642D3A3C7E00CE2144 /* RxRelay.framework */; };
+		F23075672D3A3C7E00CE2144 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23075662D3A3C7E00CE2144 /* RxSwift.framework */; };
+		F23075692D3A3C7E00CE2144 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23075682D3A3C7E00CE2144 /* SnapKit.framework */; };
+		F230756C2D3A3D1B00CE2144 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F230756B2D3A3D1B00CE2144 /* Kingfisher */; };
 		F69E3AA046CDF38A08D59C8B /* Pods_MyCleanProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C861A1733F8EBC1583FF8F37 /* Pods_MyCleanProjectTests.framework */; };
 		F827E55E2C74AAA200C5B320 /* UserListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827E55D2C74AAA200C5B320 /* UserListItem.swift */; };
 		F827E5602C74ABC500C5B320 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827E55F2C74ABC500C5B320 /* NetworkError.swift */; };
@@ -60,11 +64,8 @@
 		BFB909072C28376C00F6A530 /* MyCleanProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCleanProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB9090A2C28376C00F6A530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB9090C2C28376C00F6A530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFB9090E2C28376C00F6A530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFB909112C28376C00F6A530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB909142C28376C00F6A530 /* MyCleanProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCleanProject.xcdatamodel; sourceTree = "<group>"; };
 		BFB909162C28376E00F6A530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFB909192C28376E00F6A530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB9091B2C28376E00F6A530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB909202C28376E00F6A530 /* MyCleanProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCleanProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB909242C28376E00F6A530 /* MyCleanProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCleanProjectTests.swift; sourceTree = "<group>"; };
@@ -73,6 +74,12 @@
 		BFB909302C28376E00F6A530 /* MyCleanProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCleanProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C861A1733F8EBC1583FF8F37 /* Pods_MyCleanProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCleanProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4AD2DD05E4B6AD909C3187 /* Pods-MyCleanProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCleanProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCleanProjectTests/Pods-MyCleanProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F230755E2D3A3C7200CE2144 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23075602D3A3C7E00CE2144 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23075622D3A3C7E00CE2144 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23075642D3A3C7E00CE2144 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23075662D3A3C7E00CE2144 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23075682D3A3C7E00CE2144 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75002D8B8F527EC95814E20 /* Pods-MyCleanProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCleanProject.debug.xcconfig"; path = "Target Support Files/Pods-MyCleanProject/Pods-MyCleanProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F7F1E20CD7D5C950C7790EB0 /* Pods-MyCleanProject-MyCleanProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCleanProject-MyCleanProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyCleanProject-MyCleanProjectUITests/Pods-MyCleanProject-MyCleanProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F827E55D2C74AAA200C5B320 /* UserListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListItem.swift; sourceTree = "<group>"; };
@@ -98,6 +105,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23075612D3A3C7E00CE2144 /* Kingfisher.framework in Frameworks */,
+				F23075632D3A3C7E00CE2144 /* RxCocoa.framework in Frameworks */,
+				F23075652D3A3C7E00CE2144 /* RxRelay.framework in Frameworks */,
+				F23075672D3A3C7E00CE2144 /* RxSwift.framework in Frameworks */,
+				F230756C2D3A3D1B00CE2144 /* Kingfisher in Frameworks */,
+				F23075692D3A3C7E00CE2144 /* SnapKit.framework in Frameworks */,
+				F230755F2D3A3C7200CE2144 /* Alamofire.framework in Frameworks */,
 				B8F8450C993600509E0D02D4 /* Pods_MyCleanProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,13 +175,10 @@
 			children = (
 				BFB9090A2C28376C00F6A530 /* AppDelegate.swift */,
 				BFB9090C2C28376C00F6A530 /* SceneDelegate.swift */,
-				BFB9090E2C28376C00F6A530 /* ViewController.swift */,
 				F26A268E2D38DF51000FC417 /* Presentation */,
 				F8FD4FA32C78BEB000147C4F /* Data */,
 				F827E55A2C74AA6500C5B320 /* Domain */,
-				BFB909102C28376C00F6A530 /* Main.storyboard */,
 				BFB909162C28376E00F6A530 /* Assets.xcassets */,
-				BFB909182C28376E00F6A530 /* LaunchScreen.storyboard */,
 				BFB9091B2C28376E00F6A530 /* Info.plist */,
 				BFB909132C28376C00F6A530 /* MyCleanProject.xcdatamodeld */,
 			);
@@ -196,6 +207,12 @@
 		D547BFE0B2A22CC1DB73F4C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F23075602D3A3C7E00CE2144 /* Kingfisher.framework */,
+				F23075622D3A3C7E00CE2144 /* RxCocoa.framework */,
+				F23075642D3A3C7E00CE2144 /* RxRelay.framework */,
+				F23075662D3A3C7E00CE2144 /* RxSwift.framework */,
+				F23075682D3A3C7E00CE2144 /* SnapKit.framework */,
+				F230755E2D3A3C7200CE2144 /* Alamofire.framework */,
 				9CFBD2BF6F794D7AD7F4DF71 /* Pods_MyCleanProject.framework */,
 				ADAEDE7F611D1BFA0D6D012C /* Pods_MyCleanProject_MyCleanProjectUITests.framework */,
 				C861A1733F8EBC1583FF8F37 /* Pods_MyCleanProjectTests.framework */,
@@ -355,7 +372,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					BFB909062C28376C00F6A530 = {
 						CreatedOnToolsVersion = 13.4;
@@ -379,6 +396,8 @@
 				Base,
 			);
 			mainGroup = BFB908FE2C28376C00F6A530;
+			packageReferences = (
+			);
 			productRefGroup = BFB909082C28376C00F6A530 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,9 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB9091A2C28376E00F6A530 /* LaunchScreen.storyboard in Resources */,
 				BFB909172C28376E00F6A530 /* Assets.xcassets in Resources */,
-				BFB909122C28376C00F6A530 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +542,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB9090F2C28376C00F6A530 /* ViewController.swift in Sources */,
 				F8FD4FA82C78BF5200147C4F /* UserSession.swift in Sources */,
 				BFB9090B2C28376C00F6A530 /* AppDelegate.swift in Sources */,
 				BFB9090D2C28376C00F6A530 /* SceneDelegate.swift in Sources */,
@@ -576,25 +592,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		BFB909102C28376C00F6A530 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFB909112C28376C00F6A530 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BFB909182C28376E00F6A530 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFB909192C28376E00F6A530 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		BFB909322C28376E00F6A530 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -632,6 +629,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -692,6 +690,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -723,7 +722,6 @@
 				INFOPLIST_FILE = MyCleanProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -752,7 +750,6 @@
 				INFOPLIST_FILE = MyCleanProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -772,7 +769,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB4AD2DD05E4B6AD909C3187 /* Pods-MyCleanProjectTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -793,7 +789,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B96E3BBEC87CA5160AF221B /* Pods-MyCleanProjectTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -814,7 +809,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7F1E20CD7D5C950C7790EB0 /* Pods-MyCleanProject-MyCleanProjectUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6RZRPUZ77T;
@@ -833,7 +827,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28084A39298F814D211B9889 /* Pods-MyCleanProject-MyCleanProjectUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6RZRPUZ77T;
@@ -888,6 +881,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F230756A2D3A3D1B00CE2144 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F230756B2D3A3D1B00CE2144 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F230756A2D3A3D1B00CE2144 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BFB909132C28376C00F6A530 /* MyCleanProject.xcdatamodeld */ = {

@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 protocol UserListViewModelProtocol {
-    
+    func transform(input: UserListViewModel.Input) -> UserListViewModel.Output
 }
 
 public final class UserListViewModel: UserListViewModelProtocol {
@@ -39,7 +39,7 @@ public final class UserListViewModel: UserListViewModelProtocol {
         // cell data (유저 리스트)
         let cellData: Observable<[UserListCellData]>
         // error
-        let errror: Observable<String>
+        let error: Observable<String>
     }
     
     
@@ -108,14 +108,14 @@ public final class UserListViewModel: UserListViewModelProtocol {
             return cellData
             
         }
-        return Output(cellData: cellData, errror: error.asObservable())
+        return Output(cellData: cellData, error: error.asObservable())
     }
     
     private func fetchUser(query: String, page: Int) {
-        guard let urlAlloweedQuery = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return } // 한국어 입력시 변환 작업
+        guard let urlAllowedQuery = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return } // 한국어 입력시 변환 작업
         // 비동기적으로 백그라운드에서 작동
         Task {
-            let result = await usecase.fetchUser(query: query, page: page)
+            let result = await usecase.fetchUser(query: urlAllowedQuery, page: page)
             switch result {
             case .success(let users):
                 if page == 0 {
@@ -142,7 +142,7 @@ public final class UserListViewModel: UserListViewModelProtocol {
             } else {
                 // 검색어가 있을 경우
                 let filteredUser = users.filter { user in
-                    user.login.contains(query)
+                    user.login.contains(query.lowercased())
                 }
                 favoriteUserList.accept(filteredUser)
             }
@@ -182,12 +182,23 @@ public final class UserListViewModel: UserListViewModelProtocol {
     
 }
 
-public enum TabButtonType {
-    case api
-    case favorite
+public enum TabButtonType: String {
+    case api = "API"
+    case favorite = "Favorite"
 }
 
 public enum UserListCellData {
     case user(user: UserListItem, isFavorite: Bool)
     case header(String)
+    
+    var id: String {
+        switch self {
+        case .header: HeaderTableViewCell.id
+        case .user: UserTableViewCell.id
+        }
+    }
+}
+
+protocol UserListCellProtocol {
+    func apply(cellData: UserListCellData)
 }
